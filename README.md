@@ -1,5 +1,13 @@
 # react-native-enhancer
 
+[![npm](https://img.shields.io/npm/v/react-native-enhancer)](https://www.npmjs.com/package/react-native-enhancer)
+[![GitHub license](https://img.shields.io/github/license/yourusername/react-native-enhancer)](https://github.com/sehgalrishabh/react-native-enhancer/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/sehgalrishabh/react-native-enhancer)](https://github.com/yourusername/react-native-enhancer/issues)
+[![TypeScript](https://img.shields.io/badge/TypeScript-blue.svg)](https://www.typescriptlang.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![React](https://img.shields.io/badge/React-61DAFB.svg)](https://reactjs.org/)
+[![React Native](https://img.shields.io/badge/React_Native-61DAFB.svg)](https://reactnative.dev/)
+
 A comprehensive utility library for ReactNative development, providing essential helper methods and tools in one cohesive package.
 
 ## Table of Contents
