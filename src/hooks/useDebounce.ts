@@ -66,30 +66,3 @@ const useDebounce = (callback: CallableFunction, delay?: number) => {
 };
 
 export default useDebounce;
-
-// import React, { useState } from 'react';
-// import { useDebounce } from 'react-native-enhancer';
-
-// const MyComponent = () => {
-//   const [searchTerm, setSearchTerm] = useState('');
-//   const debouncedSearch = useDebounce((value: string) => {
-//     // Your search logic here
-//     console.log(value);
-//   }, 500);
-
-//   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-//     setSearchTerm(e.target.value);
-//     debouncedSearch(e.target.value);
-//   };
-
-//   return (
-//     <input
-//       type="text"
-//       value={searchTerm}
-//       onChange={handleChange}
-//       placeholder="Search..."
-//     />
-//   );
-// };
-
-// export default MyComponent;

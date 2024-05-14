@@ -5453,9 +5453,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-expo@npm:~11.0.5":
-  version: 11.0.5
-  resolution: "babel-preset-expo@npm:11.0.5"
+"babel-preset-expo@npm:~11.0.6":
+  version: 11.0.6
+  resolution: "babel-preset-expo@npm:11.0.6"
   dependencies:
     "@babel/plugin-proposal-decorators": ^7.12.9
     "@babel/plugin-transform-export-namespace-from": ^7.22.11
@@ -5466,7 +5466,7 @@ __metadata:
     "@react-native/babel-preset": ~0.74.83
     babel-plugin-react-native-web: ~0.19.10
     react-refresh: ^0.14.2
-  checksum: 99055eba086e2a73c1dd2f63ab4a1c46f8465b900f6922dadad3d81f9fe2a85c7fa61e7ec334e42b6f5ff72ea059851e45cfdf92f3e27270145ef79cd828c476
+  checksum: 208fdbd99ec970d4ee3a1fbed28726b58aa852a65a0a92f127df5892520a01e18beae26fd99d90078027097186940c3754209494936a713f7fe44f19db4364dd
   languageName: node
   linkType: hard
 
@@ -8719,9 +8719,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-router@npm:~3.5.11":
-  version: 3.5.11
-  resolution: "expo-router@npm:3.5.11"
+"expo-router@npm:~3.5.12":
+  version: 3.5.12
+  resolution: "expo-router@npm:3.5.12"
   dependencies:
     "@expo/metro-runtime": 3.2.1
     "@expo/server": ^0.4.0
@@ -8748,7 +8748,7 @@ __metadata:
       optional: true
     react-native-reanimated:
       optional: true
-  checksum: a82f8b9212118745bafd286308eaa16d09a6ad55031fc81e9387670862361b034f1aeeb03bc55380a34021c779d2f177e9779ed3c3119422be5e4b9d18e4bae6
+  checksum: b8bfaa7775bf6f61d579b2a1b6a7aee150fbb32b28846da03a60757b3b68f7995d06c8435891b60d6d74df39d50793682b385c224d16a23f991519c019f7d07f
   languageName: node
   linkType: hard
 
@@ -8791,9 +8791,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo@npm:~51.0.2":
-  version: 51.0.3
-  resolution: "expo@npm:51.0.3"
+"expo@npm:~51.0.5":
+  version: 51.0.5
+  resolution: "expo@npm:51.0.5"
   dependencies:
     "@babel/runtime": ^7.20.0
     "@expo/cli": 0.18.11
@@ -8801,7 +8801,7 @@ __metadata:
     "@expo/config-plugins": 8.0.4
     "@expo/metro-config": 0.18.3
     "@expo/vector-icons": ^14.0.0
-    babel-preset-expo: ~11.0.5
+    babel-preset-expo: ~11.0.6
     expo-asset: ~10.0.6
     expo-file-system: ~17.0.1
     expo-font: ~12.0.5
@@ -8812,7 +8812,7 @@ __metadata:
     whatwg-url-without-unicode: 8.0.0-3
   bin:
     expo: bin/cli
-  checksum: d3bcd04e293f805ac7e705c2616e131643e0fac6157a270091ba95b77134103a724833f5b0a9342e2919577c356c8e4d80470efe70644648e6008e46fa1ab8ff
+  checksum: 789fe4afbe3a778897e3df1002ec561cb5b3cc4b1d8310dbffb0d577ef485da555ecd819272cbb31b8851d846f8d26101aef81f65719775b0f6715978f9ce494
   languageName: node
   linkType: hard
 
@@ -15408,6 +15408,65 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-enhancer-example@workspace:example":
+  version: 0.0.0-use.local
+  resolution: "react-native-enhancer-example@workspace:example"
+  dependencies:
+    "@babel/core": ^7.20.0
+    "@expo/vector-icons": ^14.0.0
+    "@expo/webpack-config": ^19.0.1
+    "@react-navigation/native": ^6.0.2
+    babel-loader: ^8.1.0
+    babel-plugin-module-resolver: ^5.0.0
+    expo: ~51.0.5
+    expo-constants: ~16.0.1
+    expo-font: ~12.0.4
+    expo-linking: ~6.3.1
+    expo-router: ~3.5.12
+    expo-splash-screen: ~0.27.4
+    expo-status-bar: ~1.12.1
+    expo-system-ui: ~3.0.4
+    expo-web-browser: ~13.0.3
+    jest-expo: ~51.0.1
+    react: 18.2.0
+    react-dom: 18.2.0
+    react-native: 0.74.1
+    react-native-gesture-handler: ~2.16.1
+    react-native-reanimated: ~3.10.1
+    react-native-safe-area-context: 4.10.1
+    react-native-screens: 3.31.1
+    react-native-web: ~0.19.10
+  languageName: unknown
+  linkType: soft
+
+"react-native-enhancer@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "react-native-enhancer@workspace:."
+  dependencies:
+    "@commitlint/config-conventional": ^17.0.2
+    "@evilmartians/lefthook": ^1.5.0
+    "@react-native/eslint-config": ^0.73.1
+    "@release-it/conventional-changelog": ^5.0.0
+    "@types/jest": ^29.5.5
+    "@types/react": ^18.2.44
+    commitlint: ^17.0.2
+    del-cli: ^5.1.0
+    eslint: ^8.51.0
+    eslint-config-prettier: ^9.0.0
+    eslint-plugin-prettier: ^5.0.1
+    jest: ^29.7.0
+    prettier: ^3.0.3
+    react: 18.2.0
+    react-native: 0.74.1
+    react-native-builder-bob: ^0.20.0
+    release-it: ^15.0.0
+    typescript: ^5.2.2
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  languageName: unknown
+  linkType: soft
+
 "react-native-gesture-handler@npm:~2.16.1":
   version: 2.16.2
   resolution: "react-native-gesture-handler@npm:2.16.2"
@@ -15479,65 +15538,6 @@ __metadata:
   checksum: 1fc61cf7a223b3ef1c8000e74416c8953561c5fa0861557da43659db62a640e37fb51fbdc35dae810a665881a7aa9eeaf1873e90f67404b4dda53a672464a7fe
   languageName: node
   linkType: hard
-
-"react-native-enhancer-example@workspace:example":
-  version: 0.0.0-use.local
-  resolution: "react-native-enhancer-example@workspace:example"
-  dependencies:
-    "@babel/core": ^7.20.0
-    "@expo/vector-icons": ^14.0.0
-    "@expo/webpack-config": ^19.0.1
-    "@react-navigation/native": ^6.0.2
-    babel-loader: ^8.1.0
-    babel-plugin-module-resolver: ^5.0.0
-    expo: ~51.0.2
-    expo-constants: ~16.0.1
-    expo-font: ~12.0.4
-    expo-linking: ~6.3.1
-    expo-router: ~3.5.11
-    expo-splash-screen: ~0.27.4
-    expo-status-bar: ~1.12.1
-    expo-system-ui: ~3.0.4
-    expo-web-browser: ~13.0.3
-    jest-expo: ~51.0.1
-    react: 18.2.0
-    react-dom: 18.2.0
-    react-native: 0.74.1
-    react-native-gesture-handler: ~2.16.1
-    react-native-reanimated: ~3.10.1
-    react-native-safe-area-context: 4.10.1
-    react-native-screens: 3.31.1
-    react-native-web: ~0.19.10
-  languageName: unknown
-  linkType: soft
-
-"react-native-enhancer@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-native-enhancer@workspace:."
-  dependencies:
-    "@commitlint/config-conventional": ^17.0.2
-    "@evilmartians/lefthook": ^1.5.0
-    "@react-native/eslint-config": ^0.73.1
-    "@release-it/conventional-changelog": ^5.0.0
-    "@types/jest": ^29.5.5
-    "@types/react": ^18.2.44
-    commitlint: ^17.0.2
-    del-cli: ^5.1.0
-    eslint: ^8.51.0
-    eslint-config-prettier: ^9.0.0
-    eslint-plugin-prettier: ^5.0.1
-    jest: ^29.7.0
-    prettier: ^3.0.3
-    react: 18.2.0
-    react-native: 0.74.1
-    react-native-builder-bob: ^0.20.0
-    release-it: ^15.0.0
-    typescript: ^5.2.2
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  languageName: unknown
-  linkType: soft
 
 "react-native-web@npm:~0.19.10":
   version: 0.19.11
