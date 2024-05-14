@@ -5,12 +5,6 @@ import { useEffect, useRef } from 'react';
  * @param callback The function to be executed at each interval.
  * @param delay The delay (in milliseconds) between each execution of the callback function.
  * @example
- * // Example 1: Automatically switch carousel slides every 5 seconds
- * useTimer(() => {
- *   // Logic to switch to the next carousel slide
- *   // Example: setCurrentSlide((prevSlide) => (prevSlide + 1) % totalSlides);
- * }, 5000);
- * @example
  * // Example 1: Automatic Carousel Slides Transition
  * const autoSlideTimer = useTimer(() => {
  *   // Logic to switch to the next carousel slide
