@@ -5,6 +5,7 @@ import { useEffect, useRef } from 'react';
  * @param callback The function to be executed at each interval.
  * @param delay The delay (in milliseconds) between each execution of the callback function.
  * @example
+ * ```tsx
  * // Example 1: Automatic Carousel Slides Transition
  * const autoSlideTimer = useTimer(() => {
  *   // Logic to switch to the next carousel slide
@@ -17,7 +18,9 @@ import { useEffect, useRef } from 'react';
  *     clearInterval(autoSlideTimer);
  *   };
  * }, []);
+ * ```
  * @example
+ * ```tsx
  * // Example 2: Token Refresh for Authentication
  * const tokenRefreshTimer = useTimer(() => {
  *   // Logic to refresh authentication token
@@ -35,6 +38,7 @@ import { useEffect, useRef } from 'react';
  *     clearInterval(tokenRefreshTimer);
  *   };
  * }, []);
+ * ```
  */
 const useTimer = (callback: CallableFunction, delay: number) => {
   const intervalRef = useRef<ReturnType<typeof setTimeout> | null>(null);
