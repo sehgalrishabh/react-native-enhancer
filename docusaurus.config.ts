@@ -60,10 +60,10 @@ const config: Config = {
     image: "img/docusaurus-social-card.jpg",
     navbar: {
       title: "React Native Enhancer",
-      logo: {
-        alt: "React-Native-Enhancer Logo",
-        // src: "img/logo.svg",
-      },
+      // logo: {
+      //   alt: "React-Native-Enhancer Logo",
+      //   src: "img/logo.svg",
+      // },
       items: [
         {
           type: "docSidebar",
