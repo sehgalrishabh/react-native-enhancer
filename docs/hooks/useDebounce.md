@@ -1,4 +1,6 @@
 ---
+id: usedebounce
+title: useDebounce Hook
 sidebar_position: 1
 ---
 

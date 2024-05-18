@@ -1,4 +1,6 @@
 ---
+id: usetimer
+title: useTimer Hook
 sidebar_position: 2
 ---
 
