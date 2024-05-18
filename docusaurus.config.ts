@@ -59,10 +59,10 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "React Native Enhancer",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "React-Native-Enhancer Logo",
+        // src: "img/logo.svg",
       },
       items: [
         {
