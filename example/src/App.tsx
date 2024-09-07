@@ -5,8 +5,9 @@ import {
   StyleSheet,
   TouchableOpacity,
   View,
+  ActivityIndicator,
 } from 'react-native';
-import { useDebounce, useTimer } from 'react-native-enhancer';
+import { useAsync, useDebounce, useTimer } from 'react-native-enhancer';
 
 const App = () => {
   // State to track the total number of taps
@@ -28,6 +29,13 @@ const App = () => {
 
   // State to track the current time
   const [currentTime, setCurrentTime] = useState(new Date());
+
+  const [result, error, loading] = useAsync<Response, any>(
+    fetch('https://jsonplaceholder.typicode.com/todos/1'),
+    (res) => {
+      return res.json();
+    }
+  );
 
   // Example use of useTimer hook to update current time every second
   useTimer(() => {
@@ -51,6 +59,21 @@ const App = () => {
       <Text style={styles.exampleText}>
         Current Time: {currentTime.toLocaleTimeString()}
       </Text>
+
+      {/* Divider */}
+      <View style={styles.divider} />
+
+      {/* Async Data Example */}
+      <Text style={styles.heading}>useAsync Hook</Text>
+      {loading ? (
+        <ActivityIndicator size="large" color="#0000ff" />
+      ) : error ? (
+        <Text style={styles.errorText}>Error: {error.message}</Text>
+      ) : (
+        <View style={styles.resultContainer}>
+          <pre style={styles.exampleText}>{JSON.stringify(result)}</pre>
+        </View>
+      )}
     </SafeAreaView>
   );
 };
@@ -99,6 +122,14 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     width: '100%',
     marginBottom: 20,
+  },
+  errorText: {
+    fontSize: 18,
+    marginBottom: 10,
+    color: 'red',
+  },
+  resultContainer: {
+    alignItems: 'center',
   },
 });
 
