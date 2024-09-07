@@ -56,6 +56,9 @@ jobs:
       - name: Setup
         uses: ./.github/actions/setup
 
-      - name: Build example for Web
+      - name: 🌐 Export the app
         run: |
-          yarn example expo export:web
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          yarn deploy -- -u "github-actions-bot <support+actions@github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
