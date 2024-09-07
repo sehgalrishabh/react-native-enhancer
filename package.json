@@ -1,6 +1,6 @@
 {
   "name": "react-native-enhancer",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A comprehensive utility library for React-Native development, providing essential helper methods and tools in one cohesive package.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
